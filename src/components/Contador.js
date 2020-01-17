@@ -27,7 +27,7 @@ export default class Contador extends React.Component {
                 <h1>{this.state.contador}</h1>
                 <div>
                     <button onClick={this.decrementar.bind(this)}>-</button>
-                    <button onClick={this.incrementar.bind(this)}>+</button>
+                    <button onClick={this.incrementarn.bind(this)}>+</button>
                 </div>
             </div>
         );
