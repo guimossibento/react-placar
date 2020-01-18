@@ -2,6 +2,8 @@ import React from 'react';
 
 import BotaoGol from './BotaoGol';
 
+import BotaoAnulaGol from './BotaoAnulaGol';
+
 export default class Time extends React.Component{
     render(){
         return (
@@ -11,6 +13,7 @@ export default class Time extends React.Component{
               <h1 className="card-title">{this.props.nome}</h1>
               <h2 className="card-text">{this.props.gols}</h2>
               <BotaoGol marcarGol={this.props.marcarGol}/>
+              <BotaoAnulaGol marcarGol={this.props.anularGol}/>
               </div>
             </div>
         );
